@@ -51,28 +51,5 @@ Here the following tasks are done:
  ```
  gradle clean test 
  ```
-- The following report is generated:
 
-![General report](https://user-images.githubusercontent.com/55280106/187047149-65194a11-82cf-4e13-9a8a-fdffe18de71b.png)
-
-- After automation to view allure report , give the following commands:
- ```
-allure generate allure-results --clean -o allure-report
-allure serve allure-results
- ```
-**Here is the Allure report overview:**
-
-![Allure overview Report](https://user-images.githubusercontent.com/55280106/187047168-1415dcd1-f595-4539-b603-58fd45537bc1.png)
-
-**Below the suites run are shown via Allure :**
-
-![Allure suites report](https://user-images.githubusercontent.com/55280106/187047185-8e3573f4-9fd9-4f41-99c3-b0a988572f7c.png)
-
-**Screenshot of the overall project run in appium**
-
-![App inspection in appium](https://user-images.githubusercontent.com/55280106/187047271-6294584c-4dcf-4616-ad88-7ff3ee3dfb64.png)
-
-- Watch the Project video and test run:
-
-https://user-images.githubusercontent.com/55280106/187047459-e3c218e3-9ce0-4c6e-b057-f62267a66d38.mp4
 
