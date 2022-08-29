@@ -9,6 +9,9 @@ Here the following tasks are done:
 - It is tested for five different data and a reset button will be pressed after a test case with a single data is executed.
 - JSON data will be stored for every user information.
 
+
+## APK Downloader
+https://apps.evozi.com/apk-downloader/
 ### Technology: </br>
 - Tool: Selenium Webdriver
 - IDE: Intellij, Android Studio
