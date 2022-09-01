@@ -14,11 +14,14 @@ Here the following tasks are done:
 https://apps.evozi.com/apk-downloader/
 ### Technology: </br>
 - Tool: Selenium Webdriver
-- IDE: Intellij, Android Studio
 - Build tool: Gradle
-- Language: Java
 - Test_Runner: Appium
 
+# Languages 
+Java
+
+# IDE
+Intellij, Android Studio
 ### Prerequisites</br>
 - Install Android Studio latest version
 - Install Appium 1.17.1
@@ -46,9 +49,6 @@ https://apps.evozi.com/apk-downloader/
 ```
 - Click **Start Server**.
 
-#### Java IDE
-
-- Clone the repo.
 
 #### Run the Automation Script by the following command:
  ```
