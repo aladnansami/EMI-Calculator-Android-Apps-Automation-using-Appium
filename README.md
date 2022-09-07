@@ -1,7 +1,9 @@
 # EMI_Calculator_Appium
-### An [EMI calculator](https://play.google.com/store/apps/details?id=com.continuum.emi.calculator) is automated by testing with varities of datasets and whether it gives correct results with correct data.Appium is utilized on an emulated device powered by Android Studio.
+# APP
+### [EMI calculator](https://play.google.com/store/apps/details?id=com.continuum.emi.calculator)
+
 Here the following tasks are done:
-- An EMI Calculator app extracted from [EMI calculator](https://play.google.com/store/apps/details?id=com.continuum.emi.calculator) is automated by extracting its apk.
+- An EMI Calculator app extracted from https://apps.evozi.com/apk-downloader/  by extracting its apk.
 - First , a negative test case is executed where user hits the calculate button without giving any data.
 - Different data is tested where user gives Amount,Interest,Period and Processing fee and hits Calculate button.
 - The monthly EMI,total interest ,processing fee and total payment generated are matched with the expected data provided in the dataset.
@@ -12,6 +14,7 @@ Here the following tasks are done:
 
 ## APK Downloader
 https://apps.evozi.com/apk-downloader/
+
 ### Technology: </br>
 - Tool: Selenium Webdriver
 - Build tool: Gradle
@@ -22,12 +25,6 @@ Java
 
 # IDE
 Intellij, Android Studio
-### Prerequisites</br>
-- Install Android Studio latest version
-- Install Appium 1.17.1
-- Install jdk 8 or any LTS version
-- Configure **ANDROID_HOME**, **JAVA_HOME** and **GRADLE_HOME**
-- Stable internet connection
 
 ### Project Run
 
@@ -38,21 +35,6 @@ Intellij, Android Studio
 - Open Appium and start server. Then open inspector tool.
 - In the **JSON Representation** section, paste the following desired capabilities after adding your uuid and version:
 
-```
-  "deviceName": "My Device",
-  "platformName": "Android",
-  "uuid": Enter your uuid here,
-  "platformVersion": Enter your android version,
-  "appPackage": "com.continuum.emi.calculator",
-  "appActivity": "com.finance.emicalci.activity.Splash_screnn"
 
-```
-- Click **Start Server**.
-
-
-#### Run the Automation Script by the following command:
- ```
- gradle clean test 
- ```
 
 
