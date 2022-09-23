@@ -18,7 +18,7 @@ https://apps.evozi.com/apk-downloader/
 ### Technology: </br>
 - Tool: Selenium Webdriver
 - Build tool: Gradle
-- Test_Runner: Appium
+- Test_Runner: Appium Application 
 
 # Languages 
 Java
