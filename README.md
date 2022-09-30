@@ -24,7 +24,7 @@ https://apps.evozi.com/apk-downloader/
 Java
 
 # IDE
-Intellij, Android Studio
+Intellij, Android Studio, Appium
 
 ### Project Run
 
